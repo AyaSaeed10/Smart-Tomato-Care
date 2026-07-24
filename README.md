@@ -28,7 +28,7 @@ Upload a tomato plant image and automatically analyze its health using AI.
 
 Analyze uploaded tomato images and receive AI-powered disease detection and recommendations.
 
-![Tomato Disease Detection](images/tomato-catcher.png)
+![Tomato Disease Detection](images/Tomato-catcher.png)
 
 ---
 
@@ -36,7 +36,7 @@ Analyze uploaded tomato images and receive AI-powered disease detection and reco
 
 Search agricultural research articles using a custom-built search engine powered by an inverted index, TF-IDF ranking, and Retrieval-Augmented Generation (RAG).
 
-![Garden Search](images/garden-search.png)
+![Garden Search](images/Garden-search.png)
 
 ---
 
@@ -44,7 +44,7 @@ Search agricultural research articles using a custom-built search engine powered
 
 An intelligent assistant powered by Google Gemini that answers user questions and provides guidance throughout the system.
 
-![Chatbot](images/chatbot.png)
+![Chatbot](images/Chatbot.png)
 
 ---
 
