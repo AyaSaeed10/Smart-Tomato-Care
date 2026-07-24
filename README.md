@@ -52,7 +52,7 @@ An intelligent assistant powered by Google Gemini that answers user questions an
 
 Monitor environmental conditions including temperature, humidity, and soil moisture through an interactive cloud dashboard.
 
-![IoT Sensors](images/iot-sensor.png)
+![IoT Sensors](images/Iot-sensor.png)
 
 ---
 
