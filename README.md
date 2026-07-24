@@ -1,78 +1,28 @@
 # 🍅 Smart Tomato Care
+AI • Cloud Computing • IoT • RAG • Google Gemini
 
-> **Growing Smarter, Harvesting Better.**
+Smart Tomato Care is an AI-powered cloud computing platform designed to support smart agriculture by combining Artificial Intelligence, Internet of Things (IoT), Cloud Computing, and Retrieval-Augmented Generation (RAG).
 
-Smart Tomato Care is an AI-powered cloud computing platform that helps users monitor tomato plants, detect diseases, retrieve agricultural knowledge, and receive intelligent recommendations through an interactive dashboard.
-
-The project integrates Artificial Intelligence, Cloud Computing, Internet of Things (IoT), Retrieval-Augmented Generation (RAG), and Google Gemini to provide a complete smart agriculture solution.
-
----
-
-# 📸 System Preview
-
-## 🏠 Dashboard
-
-![Dashboard](images/dashboard.png)
+The system enables users to detect tomato plant diseases, monitor environmental conditions through IoT sensors, search agricultural knowledge, and interact with an intelligent chatbot powered by Google Gemini.
 
 ---
 
-## 🌱 Plant Scanner
+## ✨ Features
 
-Upload a tomato plant image and automatically analyze its health using AI.
-
-![Plant Scanner](images/plant-scanner.png)
-
----
-
-## 🍅 Tomato Disease Detection
-
-Analyze uploaded tomato images and receive AI-powered disease detection and recommendations.
-
-![Tomato Disease Detection](images/Tomato-catcher.png)
-
----
-
-## 🔍 Garden Research Search
-
-Search agricultural research articles using a custom-built search engine powered by an inverted index, TF-IDF ranking, and Retrieval-Augmented Generation (RAG).
-
-![Garden Search](images/Garden-search.png)
-
----
-
-## 🤖 AI Chatbot
-
-An intelligent assistant powered by Google Gemini that answers user questions and provides guidance throughout the system.
-
-![Chatbot](images/Chatbot.png)
-
----
-
-## 📊 IoT Sensor Monitoring
-
-Monitor environmental conditions including temperature, humidity, and soil moisture through an interactive cloud dashboard.
-
-![IoT Sensors](images/Iot-sensor.png)
-
----
-
-# ✨ Key Features
-
-- 🍅 AI-powered tomato disease detection
-- 🌱 Plant image analysis
-- 🤖 Intelligent chatbot using Google Gemini
-- 🔍 Agricultural search engine with RAG
-- 📚 Custom inverted index
-- 📄 TF-IDF document ranking
+- 🍅 AI-based tomato disease detection from plant images
+- 🌱 Plant health analysis
+- 🤖 Intelligent chatbot powered by Google Gemini
+- 🔍 Agricultural research search using RAG
+- 📚 Custom search engine with Inverted Index and TF-IDF
 - ☁ Firebase Realtime Database integration
 - 📊 IoT sensor monitoring dashboard
 - 💡 AI-generated recommendations
-- 📈 Interactive charts and visualizations
-- 🖥 User-friendly interface
+- 📈 Interactive visualizations and analytics
+- 🖥 User-friendly interface built in Google Colab
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies
 
 - Python
 - Google Colab
@@ -81,7 +31,7 @@ Monitor environmental conditions including temperature, humidity, and soil moist
 - Scikit-learn
 - Transformers
 - Retrieval-Augmented Generation (RAG)
-- TF-IDF Vectorizer
+- TF-IDF
 - Pandas
 - Matplotlib
 - Pillow (PIL)
@@ -90,79 +40,61 @@ Monitor environmental conditions including temperature, humidity, and soil moist
 
 ---
 
-# 🏗 System Architecture
+## 🏗 System Components
 
-The platform consists of the following modules:
+The project consists of the following modules:
 
 - Plant Scanner
 - Tomato Disease Detection
 - IoT Sensor Dashboard
 - Agricultural Research Search Engine
-- Retrieval-Augmented Generation (RAG)
 - AI Chatbot
 - Firebase Cloud Database
+- Retrieval-Augmented Generation (RAG)
 
-Together, these modules provide an intelligent cloud-based solution for tomato crop monitoring and disease diagnosis.
+These components work together to provide an intelligent cloud-based solution for tomato plant monitoring and disease diagnosis.
 
 ---
 
-# 🚀 How to Run
+## 🚀 Getting Started
 
-## 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/AyaSaeed10/Smart-Tomato-Care.git
 ```
 
-Or download the repository as a ZIP file from GitHub.
+Or download the repository as a ZIP file.
 
----
+### 2. Open the notebook
 
-## 2. Open the Notebook
-
-Open the notebook:
+Open the following notebook in **Google Colab**:
 
 ```
 Smart_Tomato_Care.ipynb
 ```
 
-using **Google Colab**.
-
----
-
-## 3. Connect to Google Colab Runtime
+### 3. Connect to a runtime
 
 Click **Connect** in the top-right corner of Google Colab.
 
----
+### 4. Install the required libraries
 
-## 4. Install Dependencies
+Run the first notebook cells to install all dependencies automatically.
 
-Run the first notebook cells to install all required Python libraries automatically.
+### 5. Configure Google Gemini
 
----
+Replace the placeholder API key in the notebook with your own Google Gemini API key.
 
-## 5. Configure Google Gemini API
+> Your API key is not included in this repository.
 
-The chatbot requires a Google Gemini API key.
+### 6. Configure Firebase
 
-Replace the placeholder in the notebook with your own API key before running the chatbot module.
+If you are using your own Firebase project, update the Firebase Realtime Database URL in the notebook before running it.
 
-> **Note:** API keys are not included in this repository for security reasons.
+### 7. Run the notebook
 
----
-
-## 6. Firebase Configuration
-
-The project retrieves articles and sensor data from Firebase Realtime Database.
-
-If you use your own Firebase project, update the Firebase database URL in the notebook accordingly.
-
----
-
-## 7. Run the Notebook
-
-From the Colab menu select:
+Select:
 
 ```
 Runtime → Run all
@@ -170,29 +102,17 @@ Runtime → Run all
 
 The notebook will automatically:
 
-- Install required libraries
+- Install dependencies
 - Connect to Firebase
-- Build or load the search index
-- Initialize the RAG search engine
-- Load the AI chatbot
-- Launch the interactive application
+- Load agricultural articles
+- Build or load the search engine
+- Initialize the RAG pipeline
+- Start the AI chatbot
+- Launch the interactive dashboard
 
 ---
 
-## 8. Use the Application
-
-Once the notebook finishes running, users can:
-
-- Upload tomato plant images
-- Detect tomato diseases
-- View AI recommendations
-- Search agricultural research articles
-- Ask questions using the chatbot
-- Monitor IoT sensor readings
-
----
-
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```
 Smart-Tomato-Care
@@ -200,38 +120,32 @@ Smart-Tomato-Care
 ├── Smart_Tomato_Care.ipynb
 ├── README.md
 └── images/
-    ├── dashboard.png
-    ├── plant-scanner.png
-    ├── tomato-catcher.png
-    ├── garden-search.png
-    ├── chatbot.png
-    └── iot-sensor.png
 ```
 
 ---
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
 - Detect tomato plant diseases using Artificial Intelligence.
-- Help users make informed agricultural decisions.
-- Provide reliable research retrieval using RAG.
-- Monitor environmental conditions using IoT sensors.
-- Demonstrate the integration of AI and Cloud Computing in smart agriculture.
+- Assist users with intelligent recommendations.
+- Retrieve agricultural knowledge using RAG.
+- Monitor environmental conditions through IoT sensors.
+- Demonstrate the integration of AI, Cloud Computing, and IoT in smart agriculture.
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Aya Saeed**
 
-GitHub: https://github.com/AyaSaeed10
+GitHub: **https://github.com/AyaSaeed10**
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project was developed for educational and academic purposes.
 
 ---
 
-⭐ **If you found this project useful, consider giving it a star!**
+⭐ If you found this project useful, consider giving it a star!
